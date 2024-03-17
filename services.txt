@@ -1,0 +1,15 @@
+19/tcp filtered chargen
+21/tcp open ftp
+22/tcp open ssh
+25/tcp open smtp
+53/tcp open domain
+80/tcp open http
+106/tcp open pop3pw
+110/tcp open pop3
+143/tcp open imap
+443/tcp open https
+465/tcp open smtps
+587/tcp open submission
+993/tcp open imaps
+995/tcp open pop3s
+8443/tcp open https-alt
