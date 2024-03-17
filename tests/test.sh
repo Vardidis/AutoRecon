@@ -1,0 +1,1 @@
+sudo bash ./main.sh "192.168.1.1" "192.168.1.117" "jimgrill.gr"
