@@ -1,10 +1,11 @@
 #!/bin/bash
-
 TARGET_PATH="targets"
-chmod o+rw $TARGET_PATH
+if [[ -d "./targets" ]]; then
+    chmod o+rw $TARGET_PATH
+fi
 
-PORTS_PATH="ports.txt"
-S_PATH="services.txt"
+PORTS_PATH="naabu_scan.txt"
+S_PATH="nmap_scan.txt"
 
 ips=($@)
 
